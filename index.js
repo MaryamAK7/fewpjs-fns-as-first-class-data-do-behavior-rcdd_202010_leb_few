@@ -10,9 +10,9 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
-function greet(time){
-let ntime = time.split(":");
-
+function greet(input){
+let ntime = input.split(":");
+time=ntime.parseInt()
   
 }
 /* Write your implementation of displayMessage() */
