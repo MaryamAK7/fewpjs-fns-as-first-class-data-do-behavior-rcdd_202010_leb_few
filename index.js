@@ -25,7 +25,9 @@ time= parseInt(ntime);
 }
 /* Write your implementation of displayMessage() */
 
-
+function displayMessage(argument){
+  document.getElementById("greeting").innerHTML="${argument}";
+}
 
 
 
