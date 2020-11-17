@@ -12,6 +12,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 function greet(time){
 let ntime = time.split(":");
+
   
 }
 /* Write your implementation of displayMessage() */
