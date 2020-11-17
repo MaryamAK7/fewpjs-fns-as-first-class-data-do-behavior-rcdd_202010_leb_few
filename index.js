@@ -16,5 +16,17 @@ time= parseInt(ntime);
   if(time<12){
     return "Good Morning";
   }
+  if(time>12 && time <5){
+    return "Good Afternoon";
+  }
+  if(time>17){
+    return "Good Evening";
+  }
 }
 /* Write your implementation of displayMessage() */
+
+
+
+
+
+
