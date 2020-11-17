@@ -26,8 +26,9 @@ time= parseInt(ntime);
 /* Write your implementation of displayMessage() */
 
 function displayMessage(argument){
+  let text=argument;
   let header=document.getElementById("greeting");
-  header.innerHTML="argument";
+  header.innerText=text;
 }
 
 
