@@ -16,7 +16,7 @@ time= parseInt(ntime);
   if(time<12){
     return "Good Morning";
   }
-  if(time>12 && time <5){
+  if(time>12 && time <17){
     return "Good Afternoon";
   }
   if(time>17){
